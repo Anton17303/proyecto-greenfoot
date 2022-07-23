@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=carro4
+comment1.params=v
+comment1.target=carro4(int)
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ checkCollision()
+comment4.params=
+comment4.target=void\ aumenta_velocidad()
+numComments=5
