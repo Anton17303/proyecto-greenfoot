@@ -9,7 +9,6 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class MyWorld extends World
 {
 
-
     private counter score;
     private counter level;
     
@@ -28,6 +27,7 @@ public class MyWorld extends World
         
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(973,853, 1); //El tamaño de la imagen de la pista
+        Greenfoot.playSound("musica1.mp3");//Mùsica
     
         
        num_adelantamientos = 0; // el contador inicial de puntos

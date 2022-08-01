@@ -3,7 +3,6 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 public class carro4 extends Actor
 {
-   
      
     private int speed;
     
@@ -15,24 +14,24 @@ public class carro4 extends Actor
     {
         
         //turn(20);
-        if (Greenfoot.isKeyDown("left"))
+        if (Greenfoot.isKeyDown("left"))// lee la tecla a 
         {
             
             if(getX()>150+50) // no tiene que avanzar más de 200 pixeles a la derecha
                 setLocation(getX() - 4, getY());// toma la posición acutal y le resta 4 pixeles en x y en y lo deja normal
         }
-        if (Greenfoot.isKeyDown("right"))
+        if (Greenfoot.isKeyDown("right"))// lee la tecla d
         {
             if(getX()<701-50)// la posiciòn en X sea menr a 651
                 setLocation(getX() + 4, getY()); // si es verdadero en a podiciòn en x se sumara 4 px y la posiciòn en y sera igua
         }
-        if (Greenfoot.isKeyDown("up"))
+        if (Greenfoot.isKeyDown("up"))// lee la tecla w
         {
             //arriba
             if(getY() > 172)// la posiciòn en Y tiene que ser mayor a 172
                 setLocation(getX(), getY()-2);// la posiciòn en Y tiene que disminuir 2 px en 
         }
-        if (Greenfoot.isKeyDown("down"))
+        if (Greenfoot.isKeyDown("down"))// lee la tecla s
         {
             if(getY() < 801)// la posciicòn en Y tiene que ser menor a 801
                 setLocation(getX(), getY()+4);// si es verdadero la posiciiòn en Y se suamara 4 p y en eje x sera igual

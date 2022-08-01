@@ -1,7 +1,6 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 
-
 public class counter extends Actor
 {
     private int value1 = 0;
